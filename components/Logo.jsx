@@ -20,10 +20,17 @@ export function Logo() {
 			>
 				{pathname === SITE_ROUTES.projects ? (
 					<Link href={SITE_ROUTES.home} aria-label="Go to home page" role="link">
+						 {/* <Image
+							src={JDLogo}
+							width={500}
+							height={500}
+							alt="Picture of the author"
+							/>
+						<IMAGE src={JDLogo} alt="JD Logo" /> */}
 						{SITE_STRINGS.textLogo}
 					</Link>
 				) : (
-					<>{SITE_STRINGS.textLogo}</>
+					<>	{SITE_STRINGS.textLogo}</>
 				)}
 			</m.h3>
 		</LazyMotion>

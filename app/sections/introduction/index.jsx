@@ -16,10 +16,16 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js"
+		"Innovative software developer.",
+		"Expert in web and cloud.",
+		"Microservices architect.",
+		"Effective team leader.",
+		"Clean code advocate.",
+		"Continuous learner.",
+		"Tech communicator.",
+		"Change driver.",
+		"Impact-focused coder.",
+		"Adaptable problem-solver.",
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -52,7 +58,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Vasile</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Juan David</mark> a <mark>passionate</mark> software developer.
 							</p>
 						</h1>
 
@@ -66,9 +72,9 @@ export function WelcomeSection() {
 									transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 								}}
 							>
-								I
+								I'm
 								<span
-									className="absolute flex flex-col transition-all duration-500 ease-in-expo"
+									className="absolute flex flex-col transition-all duration-500 ease-in-expo ml-6"
 									style={{
 										top:
 											count === 0

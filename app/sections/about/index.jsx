@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
-import { TimeLine } from "./TimeLine";
 
 export function AboutSection() {
 	const ref = useRef(null);
@@ -25,34 +24,14 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Vasile. I successfully graduated Technical University of Moldova, computer
-							science faculty.
+						Highly motivated software developer, graduated from an advanced diploma in Computer Analysis and Programming at Seneca Polytechnic. Equipped with comprehensive web programming skills gained through rigorous IT training, he also developed a solid foundation in databases and cloud computing, positioning me for success in the dynamic and rapidly evolving field of software development.
 						</p>
+						<br />
 						<p>
-							During my university years, I developed a deep passion for web programming, and I
-							consistently engaged in learning new concepts and techniques in this field.
-						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
-						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
-						</p>
-						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
-						</p>
-						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
-							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+						I am constantly looking for ways to work efficiently and accurately. By managing many stressful situations and resolving them under time pressure, I have honed my problem-solving skills and learned to prioritize tasks effectively. With a passion to learn and a drive to succeed, I am eager to take on new challenges and contribute to the success of any team.
 						</p>
 					</div>
 				</div>
-
-				<TimeLine />
 			</section>
 		</LazyMotion>
 	);
