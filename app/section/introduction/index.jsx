@@ -117,7 +117,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
+								href="#project"
 								onClick={onClick}
 								tabIndex="0"
 								className="btn"

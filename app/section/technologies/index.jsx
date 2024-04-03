@@ -16,7 +16,7 @@ export function TechnologiesSection() {
 				<p
 					ref={textRef}
 					tabIndex="0"
-					className="my-5 text-xl"
+					className="my-5 text-xl font-light"
 					style={{
 						transform: isTextInView ? "none" : "translateX(-200px)",
 						opacity: isTextInView ? 1 : 0,
